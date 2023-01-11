@@ -1,0 +1,152 @@
+/* body {
+    background: rgb(2, 0, 36);
+} */
+  
+.container {
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+.sis{
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bth{
+    margin-top: 15%;
+    display: inline-block;
+	outline: none;
+	border: 1px solid transparent;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color:red;
+	color: white;
+	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+	top: 6px;
+	right: 6px;
+    transition: .4s;
+}
+
+.bth:hover{
+	background-color: black;
+	border: 2px solid red;
+	cursor: pointer;
+}
+
+
+
+.field{
+    border: 1px solid rgb(143, 45, 45);
+    display: flex;
+    background-color: rgb(151, 27, 27);
+}
+  
+#pass{
+    height: 1vh;
+    margin-top: 0.6rem;
+    cursor: pointer;
+    margin-right: 5px;
+}
+  
+.message{
+    color: #992020;
+    font-size: 1.5rem;  
+    text-align: center;
+    text-decoration: underline;
+}
+
+form {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    /* background: #fff; */
+}
+
+.form {
+    width: 100%;
+    text-align: center;
+}
+
+input {
+    padding: 0.7rem;
+    width: 93.5%;
+    font-size: x-large;
+    border: none;
+    background-color: black;
+}
+
+.holder{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: solid red;
+    padding: 1rem;
+    width: fit-content;
+    background-color: white;
+}
+
+.button{
+    display: inline-block;
+	outline: none;
+	border: 1px solid transparent;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color:green;
+	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+	top: 6px;
+	right: 6px;
+    transition: .4s;
+    color: white;
+    justify-content: center;
+}
+.button:hover{
+	background-color: black;
+	border: 2px solid green;
+	cursor: pointer;
+}
+
+.centrediv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputpass{
+    display: flex;
+}
+
+#pass{
+    background-color: white;
+}
+ 
+.button{
+    text-decoration: none;
+}
+  
+
+.p{
+    color:yellow;
+    text-align: start;
+    font-size: 19px;
+}
+
+.rh{
+    text-align: center;
+
+}  
+
+input{
+    background-color: white;
+}
